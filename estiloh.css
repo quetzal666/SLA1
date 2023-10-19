@@ -1,0 +1,38 @@
+
+.menu {
+    box-sizing: border-box;
+    margin: 0;
+}
+.menu a {
+    background-color: rgb(227, 131, 150);
+    color:rgb(21, 21, 21);
+    text-decoration: none;
+    float: left;
+    width: 14%;
+    text-align: center;
+    font-family: bold;
+    padding: 10pt;
+    margin-left: 35px;
+}
+.menu a:hover {
+    background-color: rgb(193, 193, 168);
+    color: rgb(27, 26, 27);
+    text-decoration: none;
+}
+
+h1{
+    text-align:center;
+    font-size: 40px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+    flex-direction: row; 
+
+    object-fit: contain;
+}
